@@ -12,8 +12,9 @@ class AirplaneTest {
         assertNotNull(Airplane1);
     }
     @Test
-    void testMethod()
+    void testMethods()
     {
+
         Airplane Airplane2 = new Airplane(1999,true,true,true,true,100,"Name") {
         };
         Airplane2.closeDoors();
@@ -22,6 +23,44 @@ class AirplaneTest {
         assertTrue(Airplane2.isOpen);
         Airplane2.UnlockDoors();
         assertTrue(Airplane2.isUnlocked);
+        Airplane2.brake(50);
+        assertEquals(40,40);
+
     }
 
+    @Test
+    void brake() {
+    }
+
+    @Test
+    void closeDoors() {
+    }
+
+    @Test
+    void greeting() {
+    }
+
+    @Test
+    void leftTurn() {
+    }
+
+    @Test
+    void lockDoors() {
+    }
+
+    @Test
+    void openDoors() {
+    }
+
+    @Test
+    void rightTurn() {
+    }
+
+    @Test
+    void speed() {
+    }
+
+    @Test
+    void unlockDoors() {
+    }
 }

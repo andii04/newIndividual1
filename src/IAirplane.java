@@ -1,5 +1,5 @@
 public interface IAirplane {
-    void brake();
+    void brake(int Speed);
     void closeDoors();
     void greeting(String content);
     void leftTurn();

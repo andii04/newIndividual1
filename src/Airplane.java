@@ -35,8 +35,8 @@ public abstract class Airplane implements IAirplane{
 
     //methods from interface
     @Override
-    public void brake() {
-        maxSpeed = maxSpeed -10;
+    public void brake(int Speed) {
+        this.maxSpeed = maxSpeed -10;
     }
 
     @Override
